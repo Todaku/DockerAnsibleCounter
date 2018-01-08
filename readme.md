@@ -10,6 +10,8 @@ Create a new environment by using default allocations
 
 Boot up the new environment and use the Ubuntu ISO file to install the OS
 
+Clone this repo in your VM. The Ansible directory is unused for this portion.
+
 ## Docker Installation (from Docker documentation)
 - Setting up Docker repository
   update apt
@@ -123,7 +125,7 @@ Boot up the new environment and use the Ubuntu ISO file to install the OS
     to come up, if connection is refused just try again in a minute
 
     Move into the /pythonapp/ directory do the following:
-    
+
       curl localhost:5000
       The following will appear:
         Counter: X; refreshing this page increments by 1; going to :5001 container will reset (:5000)
