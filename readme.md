@@ -4,7 +4,7 @@ Download the latest version of Virtual Box and Ubuntu from their websites
 
 Set up VirtualBox and run it
 
-  VirtualBox -> https://www.virtualbox.org/wiki/Downloads
+    VirtualBox -> https://www.virtualbox.org/wiki/Downloads
 
 Create a new environment by using default allocations
 
@@ -12,7 +12,7 @@ Boot up the new environment and use the Ubuntu ISO file to install the OS
 
 Clone this repo in your VM. The Ansible directory is unused for this portion.
 
-  git clone https://github.com/Todaku/DockerAnsibleCounter.git
+    git clone https://github.com/Todaku/DockerAnsibleCounter.git
 
 ## Docker Installation (from Docker documentation)
 - Setting up Docker repository
