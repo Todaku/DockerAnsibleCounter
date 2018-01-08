@@ -1,0 +1,4 @@
+- name: Start the Docker containers using docker-compose
+  shell: sudo docker-compose up
+  args:
+    chdir: ~/pythonapp/

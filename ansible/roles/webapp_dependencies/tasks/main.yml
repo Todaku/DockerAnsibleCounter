@@ -1,0 +1,11 @@
+- name: Install pip
+  shell: yes 'y' | sudo apt install python-pip
+
+- name: Install Flask
+  shell: yes 'y' | sudo pip install Flask
+
+- name: Install redis
+  shell: yes 'y' | sudo pip install redis
+
+- name: Install docker-compose
+  shell: yes 'y' | sudo pip install docker-compose

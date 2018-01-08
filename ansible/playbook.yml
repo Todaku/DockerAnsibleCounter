@@ -1,0 +1,7 @@
+---
+- hosts: all
+  roles:
+    - role: copy_files
+    - role: docker_setup
+    - role: webapp_dependencies
+    - role: run_app

@@ -1,0 +1,17 @@
+- name: update apt
+  shell: sudo apt-get update
+
+- name: allow apt to use https
+  shell: sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+
+- name: add Docker GPG key
+  shell: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+- name: set up stable repository
+  shell: sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+- name: update apt-get again
+  shell: sudo apt-get update
+
+- name: install docker
+  shell: yes 'y' | sudo apt-get install docker-ce

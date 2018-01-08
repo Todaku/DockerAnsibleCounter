@@ -1,0 +1,4 @@
+- name: Add the Python webapp files to the VM
+  synchronize:
+    src: pythonapp/
+    dest: ~/pythonapp/
