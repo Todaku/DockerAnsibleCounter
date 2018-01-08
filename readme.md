@@ -157,3 +157,11 @@ Clone this repo in your VM. The Ansible directory is unused for this portion.
 
   Overall the task was a great learning exercise. Really got to play around and explore Docker and Ansible in a
   very practical situation.
+
+  One of the points of issue I encountered was an issue with my playbook that handled running the docker-compose task.
+  The issue was when the playbook gets to that specific task, the playbook would not finish its run without a user termination
+  (ctrl+c). This issue was quickly patched up by including the "-d" flag within the command call; this runs docker in the background (the daemon) and allows Ansible to finish the playbook. Without this, I had to use another terminal window and ssh into the vagrant box to manually verify the correctness.
+
+  Additionally, I think it would be valuable to consider alternative solutions to implementation. Possible alternatives would be without the usage of Flash/redis to bring up the python app. I happened to read on those and believed that they would be appropriate for the task, but there is more room to explore.
+
+  Thanks for following along!
