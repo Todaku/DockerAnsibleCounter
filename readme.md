@@ -105,6 +105,14 @@ Clone this repo in your VM. The Ansible directory is unused for this portion.
 
     Vagrant setup -> https://www.vagrantup.com/downloads.html
 
+    Ansible setup:
+
+      sudo apt-get update
+      sudo apt-get install software-properties-common
+      sudo apt-add-repository ppa:ansible/ansible
+      sudo apt-get update
+      sudo apt-get install ansible
+
 - Setting things up
 
     Navigate to the /ansible/ directory and set up vagrant
