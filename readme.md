@@ -157,6 +157,3 @@ Clone this repo in your VM. The Ansible directory is unused for this portion.
 
   Overall the task was a great learning exercise. Really got to play around and explore Docker and Ansible in a
   very practical situation.
-
-  Some improvements that I can see being made is to make the docker containers persistent so the Ansible playbook will terminate
-  and we can elminate the need to open another terminal and manually ssh into the vagrant box.
