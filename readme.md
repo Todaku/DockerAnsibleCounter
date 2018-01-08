@@ -73,11 +73,19 @@ Clone this repo in your VM. The Ansible directory is unused for this portion.
 - Brief explanation of usage
 
       pip -> install python related packages
-      Flask -> Framework for python webapps
-      redis -> Networking capabilities for python webapps (ie Tracking the counter)
+      Flask -> Framework for python webapps; provides simple, flexible way to set up a web app.
+      redis -> A datastore that is persistent across different docker containers (useful for maintaining counter)
       docker-compose -> Automate running the Docker containers
 
 - Running everything
+
+    Items within the current directory
+
+      main/sub --> two different containers
+        main - one container which increments the hit counter on the webapps
+        sub  - the other container with resets the same counter
+      docker-compose.yml --> the config file for docker-compose; builds both the main/sub docker containers
+      ansible/ --> directory not used in this segment. See Task2
 
     Clone the repo; then make the call to docker-compose to run all the docker files
 
