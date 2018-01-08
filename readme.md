@@ -1,4 +1,4 @@
-# Task 1
+# Task 1 - Setting up the app in an Ubuntu VM
 ## VM Installation
 Download the latest version of Virtual Box and Ubuntu from their websites
 
@@ -89,7 +89,7 @@ Clone this repo in your VM. The Ansible directory is unused for this portion.
 
     Close the hosts with a ctrl+c keyboard input
 
-# Task 2
+# Task 2 - Automate the app using Ansible
 ## Automating the Process with Ansible
 - Libraries needed:
 
