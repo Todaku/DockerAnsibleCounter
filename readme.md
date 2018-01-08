@@ -12,6 +12,8 @@ Boot up the new environment and use the Ubuntu ISO file to install the OS
 
 Clone this repo in your VM. The Ansible directory is unused for this portion.
 
+  git clone https://github.com/Todaku/DockerAnsibleCounter.git
+
 ## Docker Installation (from Docker documentation)
 - Setting up Docker repository
   update apt
